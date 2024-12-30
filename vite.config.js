@@ -22,6 +22,7 @@ export default defineConfig({
         "tsparticles",
         "@tsparticles/react",
         "swiper/react",
+        'swiper/css',
         "lottie-react",
         "sweetalert2"
       ],
