@@ -9,6 +9,7 @@ export default defineConfig({
       "tsparticles",
       "@tsparticles/react",
       "swiper/react",
+      "swiper/css",
       "lucide-react",
       "lottie-react"
     ],
@@ -25,6 +26,7 @@ export default defineConfig({
     },
   },
 });
+
 
 
 
