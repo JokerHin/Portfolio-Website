@@ -11,7 +11,8 @@ export default defineConfig({
       "swiper/react",
       "swiper/css",
       "lucide-react",
-      "lottie-react"
+      "lottie-react",
+      "sweetalert2" 
     ],
   },
   build: {
@@ -21,14 +22,9 @@ export default defineConfig({
         "tsparticles",
         "@tsparticles/react",
         "swiper/react",
-        "lottie-react"
+        "lottie-react",
+        "sweetalert2"
       ],
     },
   },
 });
-
-
-
-
-
-
