@@ -5,15 +5,16 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
-    include: ["@tsparticles/react"],
+    include: ["tsparticles", "@tsparticles/react"],
     include: ["swiper/react"],
     include: ["lucide-react"],
   },
   build: {
     rollupOptions: {
       external: ["lucide-react"],
-      external: ["@tsparticles/react"]
+      external: ["tsparticles", "@tsparticles/react"],
     }
   }
 });
+
 
