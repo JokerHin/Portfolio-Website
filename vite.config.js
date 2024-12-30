@@ -19,14 +19,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [
-        "lucide-react",
-        "tsparticles",
-        "@tsparticles/react",
-        "swiper/react",
-        'swiper/css',
-        "lottie-react",
-        "sweetalert2",
-        'swiper/css/pagination',
+        
       ],
     },
   },
