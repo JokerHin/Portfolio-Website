@@ -6,13 +6,13 @@ export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     include: [
+      'swiper/react',
+      'swiper/css', // Add swiper/css here for pre-bundling
       "tsparticles",
       "@tsparticles/react",
-      "swiper/react",
-      "swiper/css",
       "lucide-react",
       "lottie-react",
-      "sweetalert2" 
+      "sweetalert2"
     ],
   },
   build: {
