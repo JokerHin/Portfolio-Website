@@ -12,7 +12,8 @@ export default defineConfig({
       "@tsparticles/react",
       "lucide-react",
       "lottie-react",
-      "sweetalert2"
+      "sweetalert2",
+      'swiper/css/pagination',
     ],
   },
   build: {
@@ -24,7 +25,8 @@ export default defineConfig({
         "swiper/react",
         'swiper/css',
         "lottie-react",
-        "sweetalert2"
+        "sweetalert2",
+        'swiper/css/pagination',
       ],
     },
   },
