@@ -17,11 +17,13 @@ export default defineConfig({
       external: [
         "lucide-react",
         "tsparticles",
-        "@tsparticles/react"
+        "@tsparticles/react",
+        "swiper/react"
       ],
     },
   },
 });
+
 
 
 
