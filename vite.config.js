@@ -11,7 +11,8 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      external: ["lucide-react"]
+      external: ["lucide-react"],
+      external: ["@tsparticles/react"]
     }
   }
 });
