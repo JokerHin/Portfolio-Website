@@ -1,20 +1,27 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
-    include: ["tsparticles", "@tsparticles/react"],
-    include: ["swiper/react"],
-    include: ["lucide-react"],
+    include: [
+      "tsparticles",
+      "@tsparticles/react",
+      "swiper/react",
+      "lucide-react"
+    ],
   },
   build: {
     rollupOptions: {
-      external: ["lucide-react"],
-      external: ["tsparticles", "@tsparticles/react"],
-    }
-  }
+      external: [
+        "lucide-react",
+        "tsparticles",
+        "@tsparticles/react"
+      ],
+    },
+  },
 });
+
 
 
