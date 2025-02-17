@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 
 import { loadFull } from "tsparticles";
@@ -13,8 +13,7 @@ export default function Particle() {
     });
   }, []);
 
-  const particlesLoaded = (container) => {
-  };
+  const particlesLoaded = (container) => {};
 
   return (
     <>
@@ -24,14 +23,13 @@ export default function Particle() {
           particlesLoaded={particlesLoaded}
           style={{
             zIndex: -1,
-            
           }}
           options={{
             background: {
-                color: {
-                  value: "#fff",
-                },
+              color: {
+                value: "#fff",
               },
+            },
             fpsLimit: 120,
             interactivity: {
               events: {
