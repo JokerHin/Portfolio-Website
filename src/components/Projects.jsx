@@ -18,7 +18,7 @@ const Projects = () => {
       desc: "Webelite Builders did an amazing job on our website. Their professionalism and dedication to our project were outstanding.",
       image: Portfolio,
       language: "ReactJs + Vite + Tailwind",
-      live: "https://karhinportfolio.netlify.app/",
+      live: "https://portfolio-website-jhtcdgfgh-jokerhins-projects.vercel.app/",
       github: "https://github.com/JokerHin/Portfolio-Website",
     },
     {
@@ -34,7 +34,7 @@ const Projects = () => {
       desc: "Interactive Web Quiz for HTML + CSS Programming. User able to create quiz, attempt quiz and give feedback like Quizzes.",
       image: FallGuys,
       language: "ReactJS + Taiwind + TypeScript + NodeJs + ExpressJS + MongoDB",
-      live: "#",
+      live: "",
       github: "https://github.com/JokerHin/Capstone-Assignment",
     },
     {
