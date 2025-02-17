@@ -4,7 +4,6 @@ import Html from "../assets/Html.png";
 import Css from "../assets/CSS.png";
 import Javascript from "../assets/JS.png";
 import ReactLogo from "../assets/React.png";
-import Java from "../assets/Java.png";
 import Tailwind from "../assets/Tailwind Css.png";
 import PHP from "../assets/PHP.png";
 import NodeLogo from "../assets/NodeLogo.png";
@@ -12,7 +11,6 @@ import Mongodb from "../assets/mongodb.svg";
 import SQL from "../assets/SQL.png";
 import Vite from "../assets/Vite.png";
 import Express from "../assets/Express.png";
-import TypeScript from "../assets/TypeScript.png";
 
 const About = () => {
   return (
@@ -94,7 +92,11 @@ const About = () => {
                     <span className="font-semibold">Mongodb</span>
                   </div>
                   <div className="border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300">
-                    <img src={TypeScript} alt="" className="w-10" />
+                    <img
+                      src="https://cdn.iconscout.com/icon/free/png-256/free-typescript-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-7-pack-logos-icons-2945272.png?f=webp&w=256"
+                      alt=""
+                      className="w-10"
+                    />
                     <span className="font-semibold">TypeScript</span>
                   </div>
                   <div className="border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300">
